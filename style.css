@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+  text-align: center;
+  color: #00e2d7;
+}
+body >div{
+width:500px;
+}
+.clock {
+  font-size:5rem;
+}
+.day,
+.dayOfWeek {
+  font-size: 1.5rem;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
